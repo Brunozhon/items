@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Item",
+    "health": 25,
+    "evolvesFrom": null,
+    "description": "The Item that created every Item in the Itemverse.",
+    "abilites": [
+      {
+        "name": "Hit",
+        "damage": 10,
+        "descriptionKey": null
+      },
+      {
+        "name": "Evolve",
+        "damage": null,
+        "descriptionKey": "key-evolve" 
+      }
+    ]
+  }
+]
