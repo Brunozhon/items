@@ -40,7 +40,11 @@
           cardBody.className = "card-body"
           cardHeading.className = "card-title"
           cardHeading.appendChild(cardHeadingText)
-          
+          cardPara.appendChild(cardText)
+          cardBody.appendChild(cardHeading)
+          cardBody.appendChild(cardPara)
+          card.appendChild(cardBody)
+          cardEl.appendChild(card)
         }
       }
     </script>
