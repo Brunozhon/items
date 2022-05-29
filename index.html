@@ -30,8 +30,17 @@
         for (let item of json) {
           let card = document.createElement("DIV")
           let cardBody = document.createElement("DIV")
+          let cardHeading = document.createElement("H5")
+          let cardHeadingText = document.createTextNode(item.name)
+          let cardPara = document.createElement("P")
+          let cardText = document.createTextNode(`Health: ${item.health}
+          Abilities: ${item.abilities.map(ability => ability.name).join(", ")}
+          ${item.description}`)
           card.className = "card"
           cardBody.className = "card-body"
+          cardHeading.className = "card-title"
+          cardHeading.appendChild(cardHeadingText)
+          
         }
       }
     </script>
