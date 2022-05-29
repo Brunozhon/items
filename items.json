@@ -9,11 +9,6 @@
         "name": "Hit",
         "damage": 10,
         "descriptionKey": null
-      },
-      {
-        "name": "Evolve",
-        "damage": null,
-        "descriptionKey": "key-evolve" 
       }
     ]
   }
